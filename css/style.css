@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:slnt,wght@8,200..1000&family=DM+Serif+Text:ital@0;1&family=Dancing+Script:wght@700&family=Jomhuria&family=Open+Sans:ital,wdth,wght@0,93.4,300..800;1,93.4,300..800&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:wght@519&display=swap");
+body {
+  font-family: "DM Serif Text", serif;
+}
+:root {
+  --dark-bg: #1c1410;
+  --secondary-bg: #2b1d16;
+  --coffee-brown: #6f4e37;
+  --caramel: #c88a4a;
+  --cream: #f5ebdd;
+  --secondary-text: #c8b8a6;
+  --warm-white: #fff9f2;
+}
+.container {
+  min-height: 100vh;
+  background-color: var(--dark-bg);
+}
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navbar .logo {
+  width: 65px;
+  filter: drop-shadow(1px 1px 9px var(--warm-white));
+}
+.navbar ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  border-radius: 26px;
+  background-color: var(--warm-white);
+  height: 25px;
+  text-align: center;
+  align-items: center;
+  padding: 5px;
+  box-shadow: 2px 3px 5px white;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: blue;
+}
+ul li a.active {
+  display: inline-block;
+  background-color: var(--coffee-brown);
+  color: var(--warm-white);
+  padding: 7px 25px;
+  border-radius: 50px;
+}
+.nav-actions i {
+  padding: 20px;
+  color: var(--caramel);
+}
+.btn {
+  border-radius: 15px;
+  background-color: var(--coffee-brown);
+  color: var(--warm-white);
+}
