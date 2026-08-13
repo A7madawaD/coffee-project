@@ -89,7 +89,7 @@ ul li a.active:hover {
 }
 
 .text-area h1 span {
-  color: var(--dark-bg);
+  color: blue;
   font-family: "Dancing Script", cursive;
 }
 
