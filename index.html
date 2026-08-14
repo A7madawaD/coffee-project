@@ -28,11 +28,19 @@
             <li><a href="#">About Us</a></li>
             <li><a href="#">Contact Us</a></li>
           </ul>
-
           <div class="nav-actions">
-            <i class="fa-solid fa-cart-shopping" id="shop"></i>
-            <i class="fa-brands fa-searchengin" id="search"></i>
-            <button class="btn" id="but">Sign In</button>
+            <!-- أيقونة وحقل البحث بجانب بعضهما -->
+            <div class="search-wrapper" id="searchWrapper">
+              <i class="fa-solid fa-magnifying-glass" id="searchBtn"></i>
+              <input
+                type="text"
+                id="searchInput"
+                placeholder="Search coffee..."
+              />
+              <button id="closeSearch">&times;</button>
+            </div>
+
+            <button class="btn" id="signInBtn">Sign In</button>
           </div>
         </nav>
         <!-- end of nav bar -->
