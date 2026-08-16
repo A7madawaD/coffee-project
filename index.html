@@ -18,7 +18,6 @@
   <body>
     <section class="container">
       <!-- ================= NAVBAR ================= -->
-
       <nav class="navbar">
         <a href="#home" class="logo-link">
           <img
@@ -27,173 +26,183 @@
             alt="Coffee Town Logo"
           />
         </a>
-
         <button class="menu-toggle" id="menuToggle">
           <i class="fa-solid fa-bars"></i>
         </button>
-
         <ul class="nav-links" id="navLinks">
           <li>
             <a class="active" href="#home">Home</a>
           </li>
-
           <li>
             <a href="#menu">Menu</a>
           </li>
-
           <li>
             <a href="#gallery">Gallery</a>
           </li>
-
           <li>
             <a href="#about">About Us</a>
           </li>
-
           <li>
             <a href="#contact">Contact Us</a>
           </li>
         </ul>
-
         <div class="nav-actions">
           <!-- Search -->
-
           <div class="search-wrapper" id="searchWrapper">
             <i class="fa-solid fa-magnifying-glass" id="searchBtn"></i>
-
             <input
               type="text"
               id="searchInput"
               placeholder="Search coffee..."
             />
-
             <button id="closeSearch">&times;</button>
           </div>
-
           <a href="#contact" class="nav-btn"> Visit Us </a>
         </div>
       </nav>
-
       <!-- ================= HOME ================= -->
-
       <header class="head" id="home">
         <div class="text-area">
           <p class="small-title">Welcome to Coffee Town</p>
-
           <h1>
             Enjoy Your
             <span>Cup of Coffee</span>
           </h1>
-
           <p class="hero-description">
             Don't let anyone ruin your coffee mood. Discover the art of
             carefully crafted coffee.
           </p>
-
           <a href="#menu" class="hero-btn">
             Explore Our Menu
             <i class="fa-solid fa-arrow-right"></i>
           </a>
         </div>
       </header>
-
       <!-- ================= MENU ================= -->
-
       <section class="menu-section section" id="menu">
         <div class="section-heading">
           <span>OUR SELECTION</span>
-
           <h2>
             Discover Our
             <strong>Coffee Menu</strong>
           </h2>
-
           <p>Carefully crafted drinks made from selected coffee beans.</p>
         </div>
-
         <!-- FILTER -->
-
         <div class="menu-filter">
           <button class="filter-btn active" data-category="all">All</button>
-
           <button class="filter-btn" data-category="hot">Hot Coffee</button>
-
           <button class="filter-btn" data-category="cold">Cold Coffee</button>
-
           <button class="filter-btn" data-category="dessert">Desserts</button>
         </div>
-
         <!-- PRODUCTS -->
-
         <div class="menu-grid" id="menuGrid">
           <article class="coffee-card" data-category="hot">
             <div class="coffee-image">
-              <img src="image/coffee1.jpg" alt="Cappuccino" />
+              <img src="image/Menu1.png" alt="Cappuccino" />
             </div>
-
             <div class="coffee-info">
               <span>HOT COFFEE</span>
-
               <h3>Cappuccino</h3>
-
               <p>Rich espresso with smooth steamed milk.</p>
-
               <a href="#contact" class="card-link">
                 Discover
                 <i class="fa-solid fa-arrow-right"></i>
               </a>
             </div>
           </article>
-
           <article class="coffee-card" data-category="hot">
             <div class="coffee-image">
-              <img src="image/coffee2.jpg" alt="Espresso" />
+              <img src="image/hero1.png" alt="Cappuccino" />
             </div>
-
             <div class="coffee-info">
               <span>HOT COFFEE</span>
-
-              <h3>Espresso</h3>
-
-              <p>Strong and aromatic classic espresso.</p>
-
+              <h3>COFFEE</h3>
+              <p>Rich espresso with smooth steamed milk.</p>
               <a href="#contact" class="card-link">
                 Discover
                 <i class="fa-solid fa-arrow-right"></i>
               </a>
             </div>
           </article>
-
+          <article class="coffee-card" data-category="hot">
+            <div class="coffee-image">
+              <img src="image/Menu4.png" alt="Espresso" />
+            </div>
+            <div class="coffee-info">
+              <span>HOT COFFEE</span>
+              <h3>Espresso</h3>
+              <p>Strong and aromatic classic espresso.</p>
+              <a href="#contact" class="card-link">
+                Discover
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </article>
           <article class="coffee-card" data-category="cold">
             <div class="coffee-image">
-              <img src="image/coffee3.jpg" alt="Iced Latte" />
+              <img src="image/Menu2.png" alt="Iced Latte" />
             </div>
-
             <div class="coffee-info">
               <span>COLD COFFEE</span>
-
               <h3>Iced Latte</h3>
-
               <p>Chilled espresso with creamy cold milk.</p>
-
               <a href="#contact" class="card-link">
                 Discover
                 <i class="fa-solid fa-arrow-right"></i>
               </a>
             </div>
           </article>
-
           <article class="coffee-card" data-category="dessert">
             <div class="coffee-image">
-              <img src="image/dessert1.jpg" alt="Coffee Cake" />
+              <img src="image/sweet6.png" alt="Coffee Cake" />
             </div>
-
             <div class="coffee-info">
               <span>DESSERT</span>
-
               <h3>Coffee Cake</h3>
-
               <p>Soft cake with a delicate coffee flavor.</p>
-
+              <a href="#contact" class="card-link">
+                Discover
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </article>
+          <article class="coffee-card" data-category="dessert">
+            <div class="coffee-image">
+              <img src="image/sweet3.png" alt="Coffee Cake" />
+            </div>
+            <div class="coffee-info">
+              <span>DESSERT</span>
+              <h3>Coffee Cake</h3>
+              <p>Soft cake with a delicate coffee flavor.</p>
+              <a href="#contact" class="card-link">
+                Discover
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </article>
+          <article class="coffee-card" data-category="dessert">
+            <div class="coffee-image">
+              <img src="image/sweet4.png" alt="Coffee Cake" />
+            </div>
+            <div class="coffee-info">
+              <span>DESSERT</span>
+              <h3>Coffee Cake</h3>
+              <p>Soft cake with a delicate coffee flavor.</p>
+              <a href="#contact" class="card-link">
+                Discover
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </article>
+          <article class="coffee-card" data-category="dessert">
+            <div class="coffee-image">
+              <img src="image/sweet5.png" alt="Coffee Cake" />
+            </div>
+            <div class="coffee-info">
+              <span>DESSERT</span>
+              <h3>Coffee Cake</h3>
+              <p>Soft cake with a delicate coffee flavor.</p>
               <a href="#contact" class="card-link">
                 Discover
                 <i class="fa-solid fa-arrow-right"></i>
@@ -202,67 +211,60 @@
           </article>
         </div>
       </section>
-
       <!-- ================= GALLERY ================= -->
-
       <section class="gallery-section section" id="gallery">
         <div class="section-heading">
           <span>OUR GALLERY</span>
-
           <h2>
             A Taste of
             <strong>Our Atmosphere</strong>
           </h2>
-
           <p>Coffee, people and moments worth remembering.</p>
         </div>
-
         <div class="gallery-grid">
-          <img src="image/gallery1.jpg" alt="Coffee" />
-          <img src="image/gallery2.jpg" alt="Coffee Shop" />
-          <img src="image/gallery3.jpg" alt="Barista" />
-          <img src="image/gallery4.jpg" alt="Coffee Beans" />
-          <img src="image/gallery5.jpg" alt="Coffee" />
-          <img src="image/gallery6.jpg" alt="Cafe" />
+          <img src="image/About Us1.png" />
+          <img src="image/About Us2.png" />
+          <img src="image/About Us3.png" />
+          <img src="image/About Us4.png" />
+          <img src="image/About Us5.png" />
+          <img src="image/About Us6.png" />
+          <img src="image/About Us7.png" />
+          <img src="image/hero6.png" />
+          <img src="image/About Us8.png" />
         </div>
       </section>
-
       <!-- ================= ABOUT ================= -->
-
       <section class="about-section section" id="about">
         <div class="about-image">
-          <img src="image/about-coffee.jpg" alt="Coffee preparation" />
+          <img
+            id="aboutImage"
+            src="image/About Us1.png"
+            alt="Coffee preparation"
+          />
         </div>
-
         <div class="about-content">
           <span>OUR STORY</span>
-
           <h2>
             More Than Just
             <strong>Coffee</strong>
           </h2>
-
           <p>
             We believe that coffee is not simply a drink. It is a moment, a
             conversation and a feeling.
           </p>
-
           <p>
             From carefully selected beans to every cup we serve, our goal is to
             create an experience worth remembering.
           </p>
-
           <div class="about-features">
             <div>
               <i class="fa-solid fa-seedling"></i>
               <h3>Premium Beans</h3>
             </div>
-
             <div>
               <i class="fa-solid fa-mug-hot"></i>
               <h3>Perfect Brew</h3>
             </div>
-
             <div>
               <i class="fa-solid fa-heart"></i>
               <h3>Made With Love</h3>
@@ -270,80 +272,60 @@
           </div>
         </div>
       </section>
-
       <!-- ================= CONTACT ================= -->
-
       <section class="contact-section section" id="contact">
         <div class="section-heading">
           <span>GET IN TOUCH</span>
-
           <h2>
             Visit Us &
             <strong>Enjoy Your Coffee</strong>
           </h2>
-
           <p>Come and experience the atmosphere yourself.</p>
         </div>
-
         <div class="contact-container">
           <div class="contact-info">
             <div>
               <i class="fa-solid fa-location-dot"></i>
-
               <div>
                 <h3>Location</h3>
                 <p>Cairo, Egypt</p>
               </div>
             </div>
-
             <div>
               <i class="fa-solid fa-phone"></i>
-
               <div>
                 <h3>Phone</h3>
                 <p>+20 100 000 0000</p>
               </div>
             </div>
-
             <div>
               <i class="fa-solid fa-clock"></i>
-
               <div>
                 <h3>Opening Hours</h3>
                 <p>8:00 AM — 12:00 AM</p>
               </div>
             </div>
           </div>
-
           <form class="contact-form">
             <input type="text" placeholder="Your Name" />
-
             <input type="email" placeholder="Your Email" />
-
             <textarea placeholder="Your Message"></textarea>
-
             <button class="btn" type="submit">Send Message</button>
           </form>
         </div>
       </section>
-
       <!-- ================= FOOTER ================= -->
-
       <footer class="footer">
         <img src="image/logo_coffetonw.png" alt="Coffee Town" />
-
         <p>Crafted with passion, served with love.</p>
-
         <div class="social">
           <i class="fa-brands fa-facebook-f"></i>
           <i class="fa-brands fa-instagram"></i>
           <i class="fa-brands fa-tiktok"></i>
         </div>
-
         <p class="copyright">© 2026 Coffee Town. All Rights Reserved.</p>
       </footer>
     </section>
-
     <script src="js/main.js"></script>
   </body>
 </html>

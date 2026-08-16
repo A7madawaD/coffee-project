@@ -438,26 +438,17 @@ body {
 }
 
 .menu-grid {
-  max-width: 1200px;
-
   margin: auto;
-
   display: grid;
-
-  grid-template-columns: repeat(4, 1fr);
-
-  gap: 25px;
+  grid-template-columns: repeat(4, 2fr);
+  gap: 30px;
 }
 
 .coffee-card {
   overflow: hidden;
-
   border-radius: 20px;
-
   background-color: var(--secondary-bg);
-
   border: 1px solid rgba(200, 138, 74, 0.15);
-
   transition: 0.4s;
 }
 
@@ -589,14 +580,23 @@ body {
   background-color: var(--dark-bg);
 }
 
+.about-image {
+  overflow: hidden;
+  border-radius: 20px;
+}
+
 .about-image img {
   width: 100%;
-
   height: 500px;
-
   object-fit: cover;
-
   border-radius: 20px;
+
+  opacity: 1;
+  transition: opacity 0.8s ease;
+}
+
+.about-image img.fade {
+  opacity: 0;
 }
 
 .about-content > span {

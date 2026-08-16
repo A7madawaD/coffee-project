@@ -21,7 +21,40 @@ function coffeeWebsite() {
   changeBackground();
 
   setInterval(changeBackground, 5000);
+  /* ================= ABOUT IMAGE SLIDER ================= */
 
+  const aboutImage = document.getElementById("aboutImage");
+
+  const aboutImages = [
+    "About Us1.png",
+    "About Us2.png",
+    "About Us3.png",
+    "About Us4.png",
+    "About Us5.png",
+    "About Us6.png",
+    "About Us7.png",
+    "About Us8.png",
+  ];
+
+  let currentAboutImage = 0;
+
+  function changeAboutImage() {
+    aboutImage.classList.add("fade");
+
+    setTimeout(function () {
+      currentAboutImage++;
+
+      if (currentAboutImage >= aboutImages.length) {
+        currentAboutImage = 0;
+      }
+
+      aboutImage.src = `image/${aboutImages[currentAboutImage]}`;
+
+      aboutImage.classList.remove("fade");
+    }, 800);
+  }
+
+  setInterval(changeAboutImage, 4000);
   /* ================= SEARCH ================= */
 
   const searchBtn = document.getElementById("searchBtn");
